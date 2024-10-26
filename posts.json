@@ -5,5 +5,12 @@
         "description": "Описание публикации: UNRWA оказывает жизненно важные услуги, такие как образование, здравоохранение и социальные услуги для палестинских беженцев.",
         "imgSrc": "images/medical.jpg",
         "link": "https://donate.unrwa.org/-landing-page/en_EN"
+    },
+    {
+        "category": "one-click",
+        "title": "Публикация 6: Помощь в один клик",
+        "description": "Описание публикации: Палестинский Красный Полумесяц (PRCS) предоставляет услуги скорой помощи, здравоохранения и экстренной медицинской помощи.",
+        "imgSrc": "images/oneclick.jpg",
+        "link": "https://www.palestinercs.org/en/Donation?gad_source=1&gclid=CjwKCAjwqf20BhBwEiwAt7dtdRp3iDqf_oENKvScyYo2NBhPW0tJ-CwpatYtzDG-y3RPHhcRSCDB1RoCBuEQAvD_BwE"
     }
 ]
