@@ -1,0 +1,44 @@
+[
+    {
+        "category": "medical",
+        "title": "Публикация 1: Медицинская помощь",
+        "description": "Описание публикации: UNRWA оказывает жизненно важные услуги, такие как образование, здравоохранение и социальные услуги для палестинских беженцев.",
+        "imgSrc": "images/medical.jpg",
+        "link": "https://donate.unrwa.org/-landing-page/en_EN"
+    },
+    {
+        "category": "animals",
+        "title": "Публикация 2: Поддержка животных",
+        "description": "Описание публикации: Сказка природы оказывает поддержку животным.",
+        "imgSrc": "images/animal.jpg",
+        "link": "https://www.instagram.com/dog_house_almaty?igsh=anZ5ejJ5cmtxb245"
+    },
+    {
+        "category": "housing",
+        "title": "Публикация 3: Помощь с жильем",
+        "description": "Описание публикации: Фонд помощи детям Палестины (PCRF) предоставляет медицинскую помощь и гуманитарную поддержку.",
+        "imgSrc": "images/housing.jpg",
+        "link": "https://www.pcrf.net/"
+    },
+    {
+        "category": "disasters",
+        "title": "Публикация 4: Стихийные бедствия",
+        "description": "Описание публикации: Пока данных нет.",
+        "imgSrc": "images/disaster.jpg",
+        "link": "#"
+    },
+    {
+        "category": "palestine",
+        "title": "Публикация 5: Поддержка Палестины",
+        "description": "Описание публикации: Медицинская помощь палестинцам (MAP) оказывает немедленную медицинскую помощь и поддерживает долгосрочные проекты по развитию здравоохранения.",
+        "imgSrc": "images/palestine.jpg",
+        "link": "https://www.map.org.uk/"
+    },
+    {
+        "category": "one-click",
+        "title": "Публикация 6: Помощь в один клик",
+        "description": "Описание публикации: Палестинский Красный Полумесяц (PRCS) предоставляет услуги скорой помощи, здравоохранения и экстренной медицинской помощи.",
+        "imgSrc": "images/oneclick.jpg",
+        "link": "https://www.palestinercs.org/en/Donation?gad_source=1&gclid=CjwKCAjwqf20BhBwEiwAt7dtdRp3iDqf_oENKvScyYo2NBhPW0tJ-CwpatYtzDG-y3RPHhcRSCDB1RoCBuEQAvD_BwE"
+    }
+]

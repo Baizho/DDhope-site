@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Садакат - Пожертвования</title>
+    <link rel="icon" type="image/x-icon" href="Logo.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="auth-container" id="auth-container">
+        <div class="auth-forms">
+            <div class="register-form" id="register-form-container">
+                <h2>Регистрация</h2>
+                <form id="registration-form" onsubmit="registerUser(event)">
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" name="register-email" required>
+                    <label for="register-password">Пароль:</label>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <button type="submit">Зарегистрироваться</button>
+                    <p>Уже есть аккаунт? <a href="#" onclick="showLoginForm()">Войти</a></p>
+                </form>
+            </div>
+
+            <div class="login-form" id="login-form-container" style="display: none;">
+                <h2>Вход</h2>
+                <form id="login-form" onsubmit="loginUser(event)">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                    <label for="login-password">Пароль:</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <button type="submit">Войти</button>
+                    <p>Нет аккаунта? <a href="#" onclick="showRegisterForm()">Зарегистрироваться</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="main-content">
+        <div class="donation-posts" id="donation-posts">
+            <!-- Dynamic posts will be injected here by JavaScript -->
+        </div>
+
+        <!-- Donation Button -->
+        <div class="donation-button-container">
+            <button class="donate-button" onclick="promptForLogin()">Сделать пожертвование</button>
+        </div>
+    </section>
+
+    <div class="post-detail" id="post-detail" style="display: none;">
+        <div class="post-detail-content">
+            <span class="close-btn" onclick="closePostDetail()">&times;</span>
+            <div id="post-content"></div>
+            <h3>Заполните форму для получения дополнительной информации:</h3>
+            <form id="detail-form" onsubmit="sendEmail(event)">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="transaction">Детали транзакции:</label>
+                <textarea id="transaction" name="transaction" required></textarea>
+                <label for="file">Прикрепить файл (PDF):</label>
+                <input type="file" id="file" name="file" accept="application/pdf" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Include Firebase SDK -->
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
