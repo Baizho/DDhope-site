@@ -276,7 +276,7 @@ body {
 .category-item {
     background-color: #E7D9C5;
     margin: 20px;
-    padding: 30px;
+    /* padding: 20px; */
     width: 200px;
     text-align: center;
     /* justify-content: center;
